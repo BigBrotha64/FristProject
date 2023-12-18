@@ -18,7 +18,7 @@ struct ContentView: View {
         
         VStack {
             if isTextShowing {
-                Text("This is my app to test changes in Xcode15")
+                Text("This is my app to test changes in Xcode15-2 mit github  ")
                     .padding()
             } else {
                 Text("empty")
