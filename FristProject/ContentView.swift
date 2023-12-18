@@ -18,11 +18,12 @@ struct ContentView: View {
         
         VStack {
             if isTextShowing {
-                Text("This is my app")
+                Text("This is my app to test changes in Xcode15 with Github")
                     .padding()
             } else {
                 Text("empty")
                     .padding()
+                    .font(.title)
             }
             Button("Alex Button") {
                 isTextShowing.toggle()
